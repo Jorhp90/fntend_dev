@@ -1,0 +1,17 @@
+/*selector by tag*/
+p {
+    color: blue;
+    font-size: 40px;
+}
+
+/*selector by class*/
+.class_yeah {
+    color: green;
+    font-size: 20px;
+}
+
+/*selector by id*/
+#id_yeah {
+    color: purple;
+    font-size: 10px;
+}
