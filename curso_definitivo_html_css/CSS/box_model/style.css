@@ -1,0 +1,13 @@
+* { /*universal selector, always inclide it at the beginning*/
+    box-sizing: border-box; /*sum padding and border width as one*/
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px; /*up and down; left to right*/
+    /*padding-left: ; specificity on styles*/
+}
