@@ -11,18 +11,20 @@ h1.innerText = 'Patitos como tu';
 /* get attribute (e.g. class) of selector */
 // console.log(h1.getAttribute("class"));
 /* change attr of selector (class green -> red) */
-// h1.setAttribute("class", "rojo");
+//h1.setAttribute("class", "rojo");
 
 // change class of selectors (original class="verde")
 // add class e.g. class="verde rojo"
 h1.classList.add('rojo');
+
 // remove class e.g. class="rojo"
 h1.classList.remove('verde');
+
 // boolean class e.g. class="rojo"
-console.log(h1.classList.contains('rojo'));
+console.log(h1.classList.contains('verde'));
 
 // manipulate input attributes
-input.placeholder = "epale prru";
+//input.placeholder = "epale prru";
 input.value = 1234;
 
 

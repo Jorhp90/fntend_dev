@@ -6,5 +6,5 @@ const result = document.querySelector("#result");
 
 function btnOnClick () {
     const sumaI = Number(input1.value) + Number(input2.value);
-    result.innerHTML = "Resultado: " + sumaI;
+    result.innerText = "Resultado: " + sumaI;
 }
